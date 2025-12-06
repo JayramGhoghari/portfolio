@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const navLinkClass =
-  "relative px-4 py-2 text-sm font-medium uppercase tracking-wide transition duration-300 group";
+  "relative px-4 py-2 font-medium uppercase tracking-wide transition duration-300 group";
 
 function Navbar() {
   return (
@@ -23,7 +23,7 @@ function Navbar() {
         </div>
 
         {/* Nav Links */}
-        <nav className="flex items-center gap-1 text-slate-200">
+        <nav className="flex flex-wrap items-center gap-1 text-xs md:text-sm text-slate-200">
           <NavLink
             to="/"
             className={({ isActive }) =>
