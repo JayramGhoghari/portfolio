@@ -106,7 +106,7 @@ function Contact() {
               href="mailto:jayramghoghari@gmail.com"
               className="text-cyan-300 hover:text-cyan-200"
             >
-              jayramghoghari@gmail.com
+              jp2342205@gmail.com
             </a>
           </p>
 
